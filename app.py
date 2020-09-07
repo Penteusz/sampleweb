@@ -106,7 +106,7 @@ def write_to_file(data):
 
 #Zapis do pliku csv
 def write_to_csv(data):
-    with open('database.csv', newline='', mode='a') as database2:
+    with open('./database.csv', newline='', mode='a') as database2:
         email = data['email']
         subject = data['subject']
         message = data['message']
